@@ -1,0 +1,40 @@
+{
+  "name": "xhs-publisher",
+  "version": "1.0.0",
+  "description": "Automates Xiaohongshu (RED) video note publishing through a CDP-controlled real Chrome session: uploading, copy filling, originality and collection setup, draft or scheduled publishing, plus full-coverage reconciliation and troubleshooting for login, risk-control and draft-loss issues.",
+  "agents": ["./agents/xhs-publisher.md"],
+  "skills": ["./skills/xhs-publish"],
+
+  "expertType": "agent",
+  "agentName": "xhs-publisher",
+
+  "displayName": {
+    "en": "JX",
+    "zh": "JX"
+  },
+  "profession": {
+    "en": "Xiaohongshu Automation Publishing Expert",
+    "zh": "小红书自动化发布专家"
+  },
+  "displayDescription": {
+    "en": "Automates Xiaohongshu video note publishing through a logged-in browser: copy filling, originality and collection, draft and scheduled publishing, plus troubleshooting for login and risk-control issues.",
+    "zh": "接管已登录浏览器自动发布小红书视频笔记，含填稿、原创合集、草稿与定时发布，并排查登录与风控掉稿。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "zh": "把这 15 期视频批量发到小红书草稿箱",
+    "en": "Batch-upload these 15 videos as Xiaohongshu drafts"
+  },
+  "plugin": "xhs-publisher",
+  "tags": [
+    { "en": "Xiaohongshu Publishing", "zh": "小红书发布" },
+    { "en": "Browser Automation", "zh": "浏览器自动化" },
+    { "en": "Content Distribution", "zh": "内容分发" }
+  ],
+  "quickPrompts": [
+    { "en": "Batch-upload these 15 videos as Xiaohongshu drafts", "zh": "把这 15 期视频批量发到小红书草稿箱" },
+    { "en": "Compare published notes and drafts to find what's missing", "zh": "查一下已发布和草稿箱，找出还没发的内容" },
+    { "en": "Troubleshoot login failure or missing drafts", "zh": "登录失效或草稿不见了，帮我排查" }
+  ]
+}
